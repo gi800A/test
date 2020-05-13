@@ -1,9 +1,9 @@
 #include <stdio.h>
-#define STAMPA 	(printf("800A"))
+
+#define STAMPA (printf("800A"))
 
 int main()
 {
-  STAMPA;
-
+   //write here you code
+   STAMPA;
 }
-
