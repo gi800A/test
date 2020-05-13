@@ -4,5 +4,7 @@
 int main()
 {
   STAMPA;
+  STAMPA;
+  STAMPA;
 
 }
