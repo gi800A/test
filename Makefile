@@ -3,11 +3,12 @@
 #creo delle variabili:
 CC= gcc		#variabile che contiene il tipo di compilatore
 EXEC = aoo	#nome dell'eseguibile
+OBJ = main.o    #nome del file oggetto, pup contenere piu di un file
 
 
-all: $(EXEC) main.o run info
+all: $(EXEC) $(OBJ) run info
 
-$(EXEC): main.o
+$(EXEC): $(OBJ)
 	@echo "creazione del file eseguibile"
 	$(CC) main.o -o $(EXEC)
 
